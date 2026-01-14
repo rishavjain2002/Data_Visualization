@@ -1,8 +1,8 @@
 import streamlit as st
 from streamlit_option_menu import option_menu
 import pandas as pd
-import pages.overview as overview
-import pages.eda as eda 
+import sections.overview as overview
+import sections.eda as eda 
 import model.classification as classification
 import model.regression as regression
 
